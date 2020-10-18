@@ -6,6 +6,8 @@ These are my personal settings for any Unix-like environments, customizing some 
 
 The usage is simple, just clone this repository on your .config folder and include the configurations of your choice.
 
+Example: `git clone https://github.com/timoteoramos/personal-env.git ~/.config/personal-env`
+
 ### vim
 
 Edit your `~/.vimrc` for include the desired configuration files.
