@@ -2,6 +2,21 @@
 
 These are my personal settings for any Unix-like environments, customizing some of my favorite tools.
 
+## Requirements
+
+* [curl](https://curl.haxx.se/)
+* [git](https://git-scm.com/) - for plugin managers
+* [sysstat](https://github.com/sysstat/sysstat) - for [tmux-cpu](https://github.com/tmux-plugins/tmux-cpu)
+
+### From package managers (as root)
+
+* Alpine: `apk add curl git sysstat tmux vim zsh`
+* CentOS/Fedora: `dnf install curl git sysstat tmux vim zsh`
+* Debian/Ubuntu: `apt install curl git sysstat tmux vim zsh`
+* Void: `xbps-install -S curl git sysstat tmux vim zsh`
+
+Note on CentOS: make sure you have `epel-release` installed.
+
 ## Setup
 
 The usage is simple, just clone this repository on your .config folder and include the configurations of your choice.
