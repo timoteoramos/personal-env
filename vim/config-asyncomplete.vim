@@ -7,5 +7,5 @@ if has('python3')
         \ }))
 endif
 
-let g:asyncomplete_auto_popup = 1
+let g:asyncomplete_auto_popup = 0
 let g:asyncomplete_auto_completeopt = 0
