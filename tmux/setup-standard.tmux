@@ -1,5 +1,6 @@
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'jimeh/tmux-themepack'
+set -g @plugin 'tmux-plugins/tmux-open'
 set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
 set -g @plugin 'tmux-plugins/tmux-cpu'
 
@@ -16,10 +17,8 @@ set -g @prefix_highlight_show_sync_mode 'on'
 set -g @prefix_highlight_sync_mode_attr 'fg=colour15,bg=colour05'
 
 set -g @themepack 'powerline/double/cyan'
-set -g @theme-status-left-length 48
-set -g @theme-status-right-length 48
+set -g @theme-status-right-length 72
 set -g @theme-status-left-prefix '#{prefix_highlight}'
-set -g @theme-status-left-suffix ' #{cpu_fg_color}#{cpu_icon} CPU: #{cpu_percentage}'
-set -g @theme-status-right-prefix '#{ram_fg_color}#{ram_icon} RAM: #{ram_percentage} '
+set -g @themepack-status-right-area-left-suffix ' #{cpu_fg_color}#{cpu_icon} CPU: #{cpu_percentage} #{ram_fg_color}#{ram_icon} RAM: #{ram_percentage}'
 
 run -b '~/.tmux/plugins/tpm/tpm'
