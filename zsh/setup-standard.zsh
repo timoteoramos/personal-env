@@ -9,3 +9,7 @@ zinit light zsh-users/zsh-completions
 
 zinit load zdharma/history-search-multi-word
 zinit light zdharma/fast-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
+
+zinit ice from"gh-r" as"program"
+zinit load junegunn/fzf-bin
