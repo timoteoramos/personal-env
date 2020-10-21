@@ -34,6 +34,8 @@ source ~/.config/personal-env/vim/setup-standard.vim
 
 ### tmux
 
+First, install [TPM](https://github.com/tmux-plugins/tpm) by using this command: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+
 Edit your `~/.tmux.conf` for include the desired configuration files.
 
 ```
