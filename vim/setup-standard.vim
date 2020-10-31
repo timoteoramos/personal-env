@@ -5,7 +5,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'wakatime/vim-wakatime'
     Plug 'jmcantrell/vim-virtualenv'
     Plug 'tmhedberg/SimpylFold'
-    Plug 'junegunn/fzf'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'tpope/vim-fugitive'
     Plug 'vim-syntastic/syntastic'
