@@ -1,6 +1,9 @@
 " default encoding
 set encoding=UTF-8
 
+" disable Python 2
+let g:loaded_python_provider = 0
+
 " Splits spawning from below
 set splitbelow
 

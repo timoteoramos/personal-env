@@ -1,6 +1,4 @@
-source ~/.config/personal-env/vim/auto-install.vim
-
-call plug#begin('~/.vim/plugged')
+call plug#begin(stdpath('data') . '/plugged')
     Plug 'editorconfig/editorconfig-vim'
     Plug 'wakatime/vim-wakatime'
     Plug 'jmcantrell/vim-virtualenv'
