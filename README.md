@@ -23,13 +23,24 @@ The usage is simple, just clone this repository on your .config folder and inclu
 
 Example: `git clone https://github.com/timoteoramos/personal-env.git ~/.config/personal-env`
 
-### vim
+### neovim
 
-Edit your `~/.vimrc` for include the desired configuration files.
+Install [vim-plug](https://github.com/junegunn/vim-plug) with this command: `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
+
+Edit your `~/.config/nvim/init.vim` for include the desired configuration files.
 
 ``` vim
 source ~/.config/personal-env/vim/common-tweaks.vim
 source ~/.config/personal-env/vim/setup-standard.vim
+```
+
+Also, you can add some tweaks for Neovim Qt on your `~/.config/nvim/ginit.vim`:
+
+``` vim
+GuiFont MesloLGS Nerd Font:h9:l
+GuiPopupmenu 0
+GuiTabline 0
+call GuiWindowMaximized(1)
 ```
 
 ### tmux
