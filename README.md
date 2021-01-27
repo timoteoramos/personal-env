@@ -37,6 +37,7 @@ source ~/.config/personal-env/vim/setup-standard.vim
 Also, you can add some tweaks for Neovim Qt on your `~/.config/nvim/ginit.vim`:
 
 ``` vim
+colorscheme base16-irblack
 GuiFont MesloLGS Nerd Font:h9:l
 GuiPopupmenu 0
 GuiTabline 0

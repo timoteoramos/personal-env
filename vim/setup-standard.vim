@@ -1,6 +1,7 @@
 call plug#begin(stdpath('data') . '/plugged')
     Plug 'editorconfig/editorconfig-vim'
     Plug 'wakatime/vim-wakatime'
+    Plug 'chriskempson/base16-vim'
     Plug 'jmcantrell/vim-virtualenv'
     Plug 'tmhedberg/SimpylFold'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
